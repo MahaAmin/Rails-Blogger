@@ -1,5 +1,9 @@
 class ArticlesController < ApplicationController
     # index, show, new, edit, create, update, destroy
+    def index
+        @articles = Article.all 
+    end
+
     def show
         @article = Article.find(params[:id])
     end

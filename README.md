@@ -17,6 +17,7 @@
 
 - **Routing:**
 - **Action:**
+- **Resources:**
 
 
 ## Installing Rails:
@@ -90,6 +91,17 @@
 ### Routes:
 
 - Routes are configured in **config/routes.rb**.
+- To list all routes and their mappings to controllers:
+    ```
+        rails routes
+    ```
+
+
+## Notes:
+
+- **DSL:** Domain Specific Language.
+- **CRUD:** Create, Read, Update, Delete.
+- **REST Actions:**
 
 
 

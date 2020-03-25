@@ -78,7 +78,18 @@
     ```
 
 ### Models:
+- **Models Naming Convention:** 
+    - Models in rails use a singular name. (ex: Article)
+    - Corresponding database tables use a plural name. 
+- Create **Article** model:
+    ```
+        rails generate model Article title:string text:text
+    ```
 
+- Migrate model to the database:  
+    ```
+        rails db:migrate
+    ```
 ### Views:
 
 ### Controller:
@@ -87,6 +98,15 @@
     ```
         rails controller generate Welcome index
     ```
+
+- A frequent practice is to place the standard CRUD actions in each controller in the following order:
+    1. index.
+    2. show.
+    3. new.
+    4. edit.
+    5. create.
+    6. update.
+    7. destory.
 
 ### Routes:
 

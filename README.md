@@ -96,7 +96,7 @@
 
 - Create new controller "Welcome" with action called "index" :
     ```
-        rails controller generate Welcome index
+        rails generate controller Welcome index
     ```
 
 - A frequent practice is to place the standard CRUD actions in each controller in the following order:
